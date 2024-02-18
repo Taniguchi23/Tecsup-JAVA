@@ -20,6 +20,7 @@ public class PersonaController {
         return  personaService.getInfoReniec(numero);
     }
 
+
     @GetMapping("/prueba")
     public String prueba (){
         return "sss";
